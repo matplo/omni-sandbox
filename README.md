@@ -30,7 +30,7 @@ python ./heppyyier_demos/demo_pythia_fastjet.py
 henv . --run python -m pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 ```
 
-- omnilearned
+- omnilearned - https://github.com/ViniciusMikuni/OmniLearned
 ```
 henv . --run python -m pip install omnilearned
 ```
