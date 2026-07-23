@@ -7,8 +7,13 @@ Sandbox for Omnilearn[ed] developments
   
 ```
 curl -fsSL https://raw.githubusercontent.com/matplo/henv/main/henv | bash -s -- --install
+```
+
+```
 henv . --run heyy install fastjet fjcontrib lhapdf hepmc3 pythia8 jewel heppyyier-utils
 ```
+
+-- see https://github.com/matplo/heppyyier 
 
 - you may need swig depending on your setup - try `heyy install swig`
 
