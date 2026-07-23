@@ -15,7 +15,7 @@ henv . --run heyy install fastjet fjcontrib lhapdf hepmc3 pythia8 jewel heppyyie
 
 -- see https://github.com/matplo/heppyyier 
 
-- you may need swig depending on your setup - try `heyy install swig`
+- you may need swig depending on your setup - try `henv . --run heyy install swig`
 
 - for latest support pytorch+mps on a mac
 ```
