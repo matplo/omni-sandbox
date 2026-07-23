@@ -11,3 +11,13 @@ henv . --run heyy install fastjet fjcontrib lhapdf hepmc3 pythia8 jewel heppyyie
 ```
 
 - you may need swig depending on your setup - try `heyy install swig`
+
+- for latest support pytorch+mps on a mac
+```
+henv . --run python -m pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+```
+
+- omnilearned
+```
+henv . --run python -m pip install omnilearned
+```
